@@ -67,7 +67,7 @@ public class ClientHijackLauncher {
             uri = uri.resolve("..");
         }
         if (!uri.getPath().endsWith(".jar")) {
-            uri = uri.resolve("DBloodworthHijacker.jar");
+            uri = uri.resolve("runelite-hijack-1.0.jar");
         }
         return uri;
     }
@@ -80,6 +80,7 @@ public class ClientHijackLauncher {
             Method mainMethod = clazz.getMethod("main", String[].class);
             mainMethod.invoke(null, new Object[]{args});
         } catch (Exception ignored) {
+            System.out.println(ignored);
         }
     }
 }
