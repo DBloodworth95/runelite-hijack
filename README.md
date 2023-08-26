@@ -3,9 +3,9 @@ Port of the RuneLiteHijack project maintained by Arnuh, his repository can be fo
 
 # Installation
 
-- Download latest RuneLiteHijack from the releases section.
+- Download latest runelite-hijack from the releases section.
 - Find RuneLite install directory.
-- Place `RuneLiteHijack.jar` in the same folder as `config.json`
+- Place `runelite-hijack-1.0.jar` in the same folder as `config.json`
 - Open `config.json`
 - Add a comma after `"RuneLite.jar"`
 - Add `"runelite-hijack-1.0.jar"` after classPath entry `"RuneLite.jar"`
