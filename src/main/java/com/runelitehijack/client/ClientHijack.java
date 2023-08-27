@@ -11,7 +11,7 @@ public final class ClientHijack {
     private static final Logger logger = LoggerFactory.getLogger(ClientHijack.class);
     private static final long SLEEP_INTERVAL_MS = 100;
 
-    private ClientHijack() {
+    public ClientHijack() {
         logger.info("Looking for runelite injector..");
         hijackClient();
     }
